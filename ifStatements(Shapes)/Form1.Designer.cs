@@ -49,7 +49,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bookman Old Style", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(19, 184);
+            this.label1.Location = new System.Drawing.Point(69, 175);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(323, 28);
             this.label1.TabIndex = 1;
@@ -58,7 +58,7 @@
             // shapeInput
             // 
             this.shapeInput.Font = new System.Drawing.Font("Bookman Old Style", 13.8F, System.Drawing.FontStyle.Bold);
-            this.shapeInput.Location = new System.Drawing.Point(386, 178);
+            this.shapeInput.Location = new System.Drawing.Point(469, 169);
             this.shapeInput.Name = "shapeInput";
             this.shapeInput.Size = new System.Drawing.Size(278, 34);
             this.shapeInput.TabIndex = 2;
@@ -67,7 +67,7 @@
             // colourInput
             // 
             this.colourInput.Font = new System.Drawing.Font("Bookman Old Style", 13.8F, System.Drawing.FontStyle.Bold);
-            this.colourInput.Location = new System.Drawing.Point(638, 51);
+            this.colourInput.Location = new System.Drawing.Point(638, 48);
             this.colourInput.Name = "colourInput";
             this.colourInput.Size = new System.Drawing.Size(109, 34);
             this.colourInput.TabIndex = 3;
@@ -75,13 +75,17 @@
             // 
             // startButton
             // 
+            this.startButton.BackColor = System.Drawing.Color.LimeGreen;
+            this.startButton.FlatAppearance.BorderSize = 0;
+            this.startButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.startButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.startButton.Font = new System.Drawing.Font("Stencil", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.startButton.Location = new System.Drawing.Point(594, 233);
+            this.startButton.Location = new System.Drawing.Point(594, 240);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(153, 62);
             this.startButton.TabIndex = 4;
             this.startButton.Text = "BEGIN";
-            this.startButton.UseVisualStyleBackColor = true;
+            this.startButton.UseVisualStyleBackColor = false;
             this.startButton.Click += new System.EventHandler(this.startButton_Click);
             // 
             // Form1

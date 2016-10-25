@@ -19,8 +19,7 @@ namespace ifStatements_Shapes_
 
         private void startButton_Click(object sender, EventArgs e)
         {
-            //To Commit
-
+            
             Pen pen = new Pen(Color.Red, 12);
             Graphics fg = this.CreateGraphics();
 
